@@ -65,6 +65,8 @@ div.anime-principal:hover{
     margin-right: 16px;
     font-size: 12px;
     cursor: pointer;
+    position: relative;
+    top: -50px;
     transition: .7s ease all;
     -webkit-transition: .7s ease all;
     -moz-transition: .7s ease all;
@@ -93,4 +95,14 @@ div.anime-principal:hover{
 }
 .carrosel{
     margin-top: 10px;
+}
+.item{
+    width: 380px;
+    height: 500px;
+}
+
+.divisao{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 45px;
 }
