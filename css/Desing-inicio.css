@@ -73,6 +73,7 @@ div.fundo:hover{
 
 /*Botões*/
 .botao{
+    border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.4);
     color: seashell;
     border: none;
@@ -81,7 +82,7 @@ div.fundo:hover{
     font-size: 20px;
     cursor: pointer;
     position: relative;
-    top: -100px;
+    top: -90px;
     left: 1500px;
     display: block;
     margin: 10px;
@@ -99,6 +100,7 @@ div.fundo:hover{
     margin-right: 5px;
 }
 .back{
+    border-radius: 15px;
     width: 280px;
     height: 150px;
     background-color: var(--preto);

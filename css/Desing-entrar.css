@@ -112,6 +112,7 @@ button:hover{
     color: seashell;
 }
 .back{
+    border-radius: 15px;
     width: 280px;
     height: 250px;
     background-color: var(--preto);
