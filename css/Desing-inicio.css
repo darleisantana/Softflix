@@ -9,6 +9,10 @@
 
 }
 /*Elemento Base*/
+h2 a{
+    text-decoration: none;
+}
+
 body{
     background: var(--preto);
     font-family: 'Times New Roman', Times, serif;
@@ -33,20 +37,21 @@ header nav a{
 header nav a:hover{
     color: #fff;
 }
-/*Anime Principal*/
-.anime-principal{
+/*Background da tela*/
+.fundo{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)100%) ,url('../img/Tokyo-Ghoul.jpg');
-    height: 550px;
+    background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)100%) ,url('../img/Kaneki-pagina-inicial.jpg');
+    height: 870px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
-div.anime-principal:hover{
-    background: url('../img/AdmirableUnhealthyCanadagoose-small.gif');
+div.fundo:hover{
+    background: url('../img/Kaneki-pagina-inicial.gif');
     background-size: cover;
+    height: 850;
 }
 .conteiner .descricao{
     margin-top: 7%;
@@ -57,16 +62,29 @@ div.anime-principal:hover{
     font-size: 56px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.conteiner{
+    margin-left: 30px;
+    margin-right: 15px;
+}
+.anime-principal .conteiner{
+    width: 62%;
+}
+
+/*Botões*/
 .botao{
     background-color: rgba(0, 0, 0, 0.4);
     color: seashell;
     border: none;
     padding: 15px 30px;
     margin-right: 16px;
-    font-size: 12px;
+    font-size: 20px;
     cursor: pointer;
     position: relative;
-    top: -50px;
+    top: -100px;
+    left: 1500px;
+    display: block;
+    margin: 10px;
     transition: .7s ease all;
     -webkit-transition: .7s ease all;
     -moz-transition: .7s ease all;
@@ -80,30 +98,16 @@ div.anime-principal:hover{
 .botao i{
     margin-right: 5px;
 }
-.conteiner{
-    margin-left: 30px;
+.back{
+    width: 280px;
+    height: 150px;
+    background-color: var(--preto);
+    position: relative;
+    top: 50px;
+    left: 1500px;
+}
+a{
+    text-decoration: none;
+    color: #aaa;
     margin-right: 15px;
-}
-.anime-principal .conteiner{
-    width: 62%;
-}
-/*Carrosel*/
-.box-anime{
-    height: 100%;
-    width: 100%;
-    display: block;
-}
-.carrosel{
-    margin-top: 10px;
-}
-/*Imagens e Divisão por nome*/
-.item{
-    width: 380px;
-    height: 500px;
-}
-
-.divisao{
-    font-size: 70px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-top: 45px;
 }
