@@ -21,7 +21,7 @@
         <div class="fundo">
             <div class="container">
                 <nav class="back"></nav>
-               <form action="BD/loginconnect.php" method="post" class="form-entrar">
+               <form action="mysql/loginconnect.php" method="post" class="form-entrar">
                     <input type="email" name="email" id="email" class="formulario" placeholder="E-mail" required>
                     <input type="password" name="password" id="senha" class="formulario" placeholder="Senha" required>
                     <button type="submit">entrar</button>
