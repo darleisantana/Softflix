@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/Desing-inicio.css">
-    <title>SoftFlix</title>
+    <link rel="stylesheet" type="text/css" href="css/Desing-entrar.css">
+    <title>SoftFlix - entrar</title>
 
     <!--Responsividade-->
     <link rel="stylesheet" type="text/css" href="css/responsividade.css">
@@ -14,25 +14,18 @@
 <body>
     <header>
         <div class="conteiner">
-           <a href="index.php"><h2 class="logo">SOFTFLIX</h2></a>
+            <a href="index.php"><h2 class="logo">SOFTFLIX</h2></a>
         </div>
     </header>
     <main>
         <div class="fundo">
             <div class="container">
                 <nav class="back"></nav>
-                <button role="button" class="botao" >
-                    <a href="login.php">
-                        <i class="fas fa-key"></i>
-                        ENTRAR
-                    </a>
-                </button>
-                <button role="button" class="botao">
-                    <a href="cadastro.php">
-                        <i class="fas fa-sign-in-alt"></i>
-                        CADASTRAR
-                    </a>
-                </button>
+               <form action="BD/loginconnect.php" method="post" class="form-entrar">
+                    <input type="email" name="email" id="email" class="formulario" placeholder="E-mail" required>
+                    <input type="password" name="password" id="senha" class="formulario" placeholder="Senha" required>
+                    <button type="submit">entrar</button>
+               </form>
             </div>
         </div>
     </main>
